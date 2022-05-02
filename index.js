@@ -5,7 +5,7 @@ const router = express.Router();
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('From Main server');
+  res.send('From Home server');
 })
 
 app.listen(8080, () => {
